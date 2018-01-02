@@ -1,0 +1,2 @@
+What happens when you initialize a repository? Why do you need to do it?
+it will create a .git file which will store the snapshot of the commited files at every commit.
