@@ -7,3 +7,10 @@ How is the staging area different from the working directory and the repository?
 staging area is an intermediate between working directory and the repository. 
 using this u can add multiple files to the staging area and make the whole change as single commit
 this way it helps to achive the idea of single commit per single logical change.
+----------------------------------------------------------------------------------------------
+
+How can you use the staging area to make sure you have one commit per logical change?
+	you can compare the staging area with the working directory to find what changes you have made and add only the things you wanted to be changed in this commit and remove others which u don't want to include in this commit. this ensures that its only one logical commit is commited.
+
+	Also you can compare the staging area with the most resent commit in the repository using the 
+	git diff --staged cmd.. this way u can ensure that what you are trying to commit is exactly what you wanted to change.
