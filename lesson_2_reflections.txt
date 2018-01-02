@@ -1,2 +1,9 @@
 What happens when you initialize a repository? Why do you need to do it?
 it will create a .git file which will store the snapshot of the commited files at every commit.
+---------------------------------------------------------------------------------------------
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+staging area is an intermediate between working directory and the repository. 
+using this u can add multiple files to the staging area and make the whole change as single commit
+this way it helps to achive the idea of single commit per single logical change.
