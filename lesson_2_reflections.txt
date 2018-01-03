@@ -21,3 +21,6 @@ What are some situations when branches would be helpful in keeping your history 
 	try out some new features
 	add a different feature or seperatean app 
 --------------------------------------------------------------------------------------------------
+
+How do the diagrams help you visualize the branch structure?
+	using diagram you can vizhualize the structure of commits and branches. using this u can get to know which commit won't show up in the git log command.
